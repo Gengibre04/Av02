@@ -35,5 +35,5 @@ login = input("Digite seu nome de usuário:")
 senha = input("Digite sua senha:")
 if autenticação(login,senha):
     print("Login inserido corretamente")
-else
+else:
     print("falha no login, senha ou nome inserido incorretamente!")
